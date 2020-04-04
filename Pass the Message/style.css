@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+}
+h1 {
+    margin: 0px 2rem;
+    height: 1em;;
+}
+#message {
+    height: 20px;
+    font-size: 15px;
+    width: 90%
+}
+#last-message {
+    color: #6aa6b9;
+    font-size: 25px;
+    height: 100%;
+    margin: 5px;
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
