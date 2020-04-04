@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgray;
+    font-family: "Share Tech Mono", monospace;
+}
+main {
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 5% 3%;
+}
+#counter {
+    font-size: 100px;
+}
