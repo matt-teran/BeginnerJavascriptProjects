@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/bg4.jpeg);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+header {
+    color: white;
+    margin-bottom: 50px;
+}
+h2 {
+    color: #f15025;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 3px;
+    height: 20em;
+    width: 45vw;
+}
+img {
+    position: relative;
+    margin-top: -45px;
+    width: 135px;
+    border-radius: 50%;
+}
+#customer {
+    color: white;
+}
+i {
+    color: #f15025;
+}
+p {
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    border: 3px solid #f15025;
+    border-radius: 50%;
+    height: 3rem;
+}
