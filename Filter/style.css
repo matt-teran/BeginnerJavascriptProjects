@@ -1,0 +1,126 @@
+body {
+    background: url('img/headerBcg.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 15px;
+    margin: 0;
+}
+#menu, #phone, .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#menu, h1 {
+    color: #ef7998;
+}
+#menu h3 {
+    margin: 0 5px;
+    cursor: pointer;
+}
+#menu h3:hover{
+    color: black;
+}
+#cart {
+    font-size: 1rem;
+    cursor: pointer;
+}
+#cart button:hover {
+    background-color: #ef7998;
+    border: 1px solid #ef7998;
+    color: white;
+    cursor: pointer;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(249, 228, 148, 0.5);
+    margin: 0;
+    height: calc(100vh - 65.53px)
+}
+#explore {
+    border: 2px solid black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#jumbotron {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 48px 0;
+}
+#about {
+    width: 405px;
+}
+#macaron {
+    height: 405px;
+    margin: 48px 0;
+}
+main {
+    background-color: #eee;
+    text-align: center;
+}
+main .title {
+    display: flex;
+    justify-content: center;
+}
+#sweets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sweet-card {
+    height: 335px;
+    width: 348px;
+    margin: 16px 15px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.sweet-card img {
+    height: 261px;
+    width: 348px;
+}
+.sweet-card div {
+    background: white;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -6px;
+}
+.sweet-card h3 {
+    margin: 0;
+}
+#filters {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 20%;
+}
+button {
+    font-family: 'Kaushan Script', cursive;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background: black;
+    color: #ef7998;
+}
